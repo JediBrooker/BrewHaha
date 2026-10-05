@@ -1,0 +1,41 @@
+# BrewHaha privacy policy
+
+Effective 6 October 2026. BrewHaha is developed by Christian Brooker (JediBrooker).
+
+BrewHaha helps you plan recipes and record your brewing. It does not require a BrewHaha account and has no advertising or analytics SDK.
+
+## Your brewing records
+
+Recipes, equipment profiles, batches, tasting notes, ratings, fermentation readings, pantry items and brew sessions are stored on your device. BrewHaha does not upload these records to an app account or developer server. Apple may include app data in device backups according to your device settings.
+
+You can export a backup and choose where to save or share it. Imported backups are processed on your device. Copies you export remain in the locations you choose; manage those copies separately.
+
+## Camera and Bluetooth
+
+The camera reads ingredient barcodes on your device. Camera images are not uploaded. A scanned code first matches saved pantry items locally. Bluetooth access discovers compatible Tilt hydrometers and records readings in your local batch history. You can manage camera and Bluetooth permissions in iOS Settings.
+
+## Optional online product lookup
+
+Only when you choose **Look up product online**, BrewHaha sends the product barcode to Open Food Facts. Its servers also receive your IP address and an app identification header containing the app name, version and support URL. Camera images, recipes, batch records and pantry contents are not sent.
+
+[Open Food Facts' privacy policy](https://world.openfoodfacts.org/privacy) states that visitor IP addresses and request logs are retained for three years for security, technical analysis and popularity measurement. Open Food Facts operates this service under its own policy. You can contact it at privacy@openfoodfacts.org about its handling of those records. BrewHaha uses Apple's native barcode scanning, without Google's MLKit scanner.
+
+Online lookup is optional. Local matching and manual product entry remain available without it. Product facts are community contributed; check the packaging before saving. [Open Food Facts data](https://world.openfoodfacts.org/data) is licensed under the [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/).
+
+## External links and support
+
+When you open a recipe source, manufacturer manual, support page or other external link, your browser connects to that website. The website's own privacy policy applies. If you contact support, you choose which contact details, messages and attachments to provide. Avoid sending backups or private brewing notes unless needed to investigate the issue.
+
+## This website
+
+These public privacy and support pages are hosted by GitHub Pages. GitHub handles website requests under its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The pages contain no analytics scripts, advertising or third-party fonts. This website hosting is separate from the local brewing records in the app.
+
+## Your choices
+
+Delete individual records in the app, or remove its local database by deleting the app. Manage exported files and Apple device backups separately. Choose local barcode matching or manual entry to avoid online product lookup. BrewHaha does not use this information for advertising tracking.
+
+## Contact and updates
+
+For privacy questions, [contact the developer through GitHub Issues](https://github.com/JediBrooker/BrewHaha/issues/new/choose). Issues are public: do not include personal information, backup files or private brewing notes. If your request needs private information, ask for a private contact channel first.
+
+This policy will be updated if BrewHaha's data practices change. The effective date above identifies the current version.
