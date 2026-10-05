@@ -10,7 +10,7 @@ Save a recipe from **Discover**, or create one in **My Recipes**. Review its ing
 
 ## Equipment profiles
 
-Open **Settings → Equipment profiles** and create a profile. Choose your brewing method and pictured equipment. Published vessel capacities and starter estimates prefill supported fields; review them against the manufacturer's manual and your own measurements. Fermenter capacity is its vessel size, while suggested batch volume leaves space for foam. Ordinary airlock and pressure fermentation have separate guidance.
+Open **Settings → Equipment profiles** and create a profile. Choose your brewing method, then select generic equipment types and describe their shape, material and fitted features. Enter your actual vessel capacities in the profile. Review the starting estimates against your equipment manual and your own measurements. Fermenter capacity is its vessel size, while suggested batch volume leaves space for foam. Ordinary airlock and pressure fermentation have separate guidance.
 
 ## Barcode scanning
 
