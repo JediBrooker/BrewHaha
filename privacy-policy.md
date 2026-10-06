@@ -10,9 +10,13 @@ Recipes, equipment profiles, batches, tasting notes, ratings, fermentation readi
 
 You can export a backup and choose where to save or share it. Imported backups are processed on your device. Copies you export remain in the locations you choose; manage those copies separately.
 
-## Camera and Bluetooth
+## Camera, Bluetooth and location
 
-The camera reads ingredient barcodes on your device. Camera images are not uploaded. A scanned code first matches saved pantry items locally. Bluetooth access discovers compatible Tilt hydrometers and records readings in your local batch history. You can manage camera and Bluetooth permissions in iOS Settings.
+The camera reads ingredient barcodes on your device. Camera images are not uploaded. A scanned code first matches saved pantry items locally.
+
+Compatible Tilt hydrometers broadcast their readings as Bluetooth beacons, so Bluetooth must be turned on to read them. iOS only lets apps receive these beacon broadcasts through its location services. When you tap **Scan** to find a Tilt, BrewHaha therefore asks for location access while the app is in use. BrewHaha uses this permission only to detect nearby Tilt beacons. It does not read, store or share your location, and it never asks for location access in the background. Tilt readings are recorded in your local batch history. Without this permission, or without a Tilt, you can enter gravity and temperature readings manually.
+
+You can manage camera and location permissions in iOS Settings.
 
 ## Optional online product lookup
 
