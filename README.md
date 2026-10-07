@@ -5,6 +5,6 @@ Public support and privacy pages for the BrewHaha homebrewing app. Hosted with G
 - Support: https://brewhaha.me/
 - Privacy: https://brewhaha.me/privacy/
 
-This repository contains the public website and policy source. The iOS application source is maintained separately. No trackers, remote fonts or build dependencies are used. Contact is provided through this repository's Issues; do not post private information.
+This repository contains the public website and policy source. The iOS application source is maintained separately. No trackers, remote fonts or build dependencies are used. Support email: support@brewhaha.me (Cloudflare Email Routing forwards it to the developer).
 
 Edit `index.html` or `privacy/index.html` and push to `main` to update the live pages. Keep the corresponding Markdown policy/help source in sync.

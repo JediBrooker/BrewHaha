@@ -6,13 +6,13 @@ BrewHaha helps you plan recipes and record your brewing. It does not require a B
 
 ## Your brewing records
 
-Recipes, equipment profiles, batches, tasting notes, ratings, fermentation readings, pantry items and brew sessions are stored on your device. BrewHaha does not upload these records to an app account or developer server; only recipes you choose to share with the community leave your device (see Community recipes below). Apple may include app data in device backups according to your device settings.
+Recipes, equipment profiles, batches, tasting notes, ratings, fermentation readings, pantry items and brew sessions are stored on your device. BrewHaha does not upload these records to an app account or developer server; only the recipes, brew photos and ratings you choose to share with the community leave your device (see Community recipes below). Apple may include app data in device backups according to your device settings.
 
 You can export a backup and choose where to save or share it. Imported backups are processed on your device. Copies you export remain in the locations you choose; manage those copies separately.
 
 ## Camera, Bluetooth and location
 
-The camera reads ingredient barcodes on your device. Camera images are not uploaded. A scanned code first matches saved pantry items locally.
+The camera reads ingredient barcodes on your device; barcode scans are not uploaded. A scanned code first matches saved pantry items locally. You can also take or choose a photo of a brew. Brew photos stay on your device unless you add one to a recipe you share with the community.
 
 Compatible Tilt hydrometers broadcast their readings as Bluetooth beacons, so Bluetooth must be turned on to read them. iOS only lets apps receive these beacon broadcasts through its location services. When you tap **Scan** to find a Tilt, BrewHaha therefore asks for location access while the app is in use. BrewHaha uses this permission only to detect nearby Tilt beacons. It does not read, store or share your location, and it never asks for location access in the background. Tilt readings are recorded in your local batch history. Without this permission, or without a Tilt, you can enter gravity and temperature readings manually.
 
@@ -30,15 +30,15 @@ Online lookup is optional. Local matching and manual product entry remain availa
 
 Community recipes are optional. Browsing them needs no identity. Nothing about you is sent until you share, rate or report a recipe. Then this installation gets an anonymous community identity: a random ID and a key kept in your device's keychain. No name, email address or account is needed.
 
-**Public:** recipes you share, the display name you choose for them, and rating averages and counts.
+**Public:** recipes you share, any brew photo you add to them, the display name you choose, and rating averages and counts for community and published recipes.
 
-**Stored on the BrewHaha server but not public:** your anonymous identity, which recipes you rated or reported, and report notes. Nothing links the identity to you as a person. The server does not store IP addresses; to limit abuse it keeps a salted fingerprint of the address, which changes daily and is deleted within two days.
+**Stored on the BrewHaha server but not public:** your anonymous identity, which recipes you rated, which recipes and photos you reported, and report notes. Nothing links the identity to you as a person. The server does not store IP addresses; to limit abuse it keeps a salted fingerprint of the address, which changes daily and is deleted within two days.
 
 **On your device only:** everything else, including your other recipes, batches, tasting notes, readings, pantry, display name setting and the authors you block.
 
-The community server runs on Cloudflare, which processes these requests for BrewHaha under its [privacy policy](https://www.cloudflare.com/privacypolicy/). Shared recipes are checked automatically for blocked words and links. Recipes reported by several people are hidden and reviewed by the developer, who may remove them or block their author.
+The community server runs on Cloudflare, which processes these requests for BrewHaha under its [privacy policy](https://www.cloudflare.com/privacypolicy/). Shared photos are stored with Cloudflare R2. Before a photo is uploaded, BrewHaha re-encodes it on your device, which removes hidden metadata such as location and camera details. Shared recipes are checked automatically for blocked words and links. Recipes reported by several people are hidden and reviewed by the developer, who may remove them or block their author. A photo is hidden as soon as anyone reports it, until the developer reviews it; if your photo is hidden or removed, the app tells you.
 
-Because the identity is tied to this installation, deleting the app means you can no longer change or remove what you shared. Use **Settings → Community → Delete everything I shared** first: it removes your shared recipes, ratings, reports and community identity from the server.
+Because the identity is tied to this installation, deleting the app means you can no longer change or remove what you shared. Use **Settings → Community → Delete everything I shared** first: it removes your shared recipes and photos, ratings, reports and community identity from the server.
 
 ## External links and support
 
@@ -50,10 +50,10 @@ These public privacy and support pages are hosted by GitHub Pages. GitHub handle
 
 ## Your choices
 
-Delete individual records in the app, or remove its local database by deleting the app. Manage exported files and Apple device backups separately. Choose local barcode matching or manual entry to avoid online product lookup. Remove community recipes, ratings and reports with **Settings → Community → Delete everything I shared**. BrewHaha does not use this information for advertising tracking.
+Delete individual records in the app, or remove its local database by deleting the app. Manage exported files and Apple device backups separately. Choose local barcode matching or manual entry to avoid online product lookup. Remove community recipes, photos, ratings and reports with **Settings → Community → Delete everything I shared**. BrewHaha does not use this information for advertising tracking.
 
 ## Contact and updates
 
-For privacy questions, [contact the developer through GitHub Issues](https://github.com/JediBrooker/BrewHaha/issues/new/choose). Issues are public: do not include personal information, backup files or private brewing notes. If your request needs private information, ask for a private contact channel first.
+For privacy questions, email [support@brewhaha.me](mailto:support@brewhaha.me).
 
 This policy will be updated if BrewHaha's data practices change. The effective date above identifies the current version.

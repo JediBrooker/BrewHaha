@@ -10,13 +10,15 @@ Save a recipe from **Discover**, or create one in **My Recipes**. Review its ing
 
 ## Community recipes
 
-In **Discover**, switch to **Community** to browse recipes other brewers have shared. Save or brew one just like a published recipe. After you finish brewing it, you can share your ha-ha rating from the batch review.
+**Discover** lists published recipes and recipes other brewers have shared together. Use the **Source** filter to see just one kind, and sort by Featured, Newest or Top rated. Save or brew any of them.
 
-To share your own recipe, open it in **My Recipes** and tap **Share to community**. Links aren't allowed in community recipes; if your recipe came from a published source, tap **Remove links** in the share sheet. Manage what you shared, blocked authors and your display name in **Settings → Community**.
+When a batch is completed, rate it from **My Batches**: completed batches show their ha-ha rating, or a **Rate it** button. BrewHaha also reminds you to taste and rate your brew two weeks after you complete it (turn this off in **Settings**). If the recipe came from Discover, you can share your rating with the community.
+
+To share your own recipe, open it in **My Recipes** and tap **Share to community**. You can add a photo of your brew: take or choose one on the batch, then pick it when you share. Photos are public, so leave out people's faces and personal details. Links aren't allowed in community recipes; if your recipe came from a published source, tap **Remove links** in the share sheet. Manage what you shared, blocked authors and your display name in **Settings → Community**.
 
 ### Community rules
 
-Share only recipes you created or have the right to share. Community recipes are for brewing beer, cider, mead or ginger beer: no distilling and nothing illegal. There is zero tolerance for objectionable content, including offensive, hateful, sexual or threatening material, harassment and spam. Report anything that breaks these rules from the recipe's menu; authors who break them can be blocked from sharing. When you share a recipe, you give other BrewHaha users permission to view, save, adapt and brew it. The developer may hide or remove any community recipe. Community recipes come from other brewers and are not checked by BrewHaha; review them before brewing.
+Share only recipes you created or have the right to share. Community recipes are for brewing beer, cider, mead or ginger beer: no distilling and nothing illegal. There is zero tolerance for objectionable content, including offensive, hateful, sexual or threatening material, harassment and spam. Photos must show your brew. Report anything that breaks these rules from the recipe's menu, including a photo; a reported photo is hidden straight away until it's reviewed. Authors who break the rules can be blocked from sharing. When you share a recipe, you give other BrewHaha users permission to view, save, adapt and brew it. The developer may hide or remove any community recipe. Community recipes come from other brewers and are not checked by BrewHaha; review them before brewing.
 
 ## Equipment profiles
 
@@ -36,7 +38,7 @@ All current BrewHaha brewing tools are free. No BrewHaha account or subscription
 
 ## Contact support
 
-[Ask a question or report a problem on GitHub](https://github.com/JediBrooker/BrewHaha/issues/new/choose). Issues are public. Do not upload backups, private notes, phone numbers or other personal information. For a private request, first ask for a private contact channel without posting those details.
+Email [support@brewhaha.me](mailto:support@brewhaha.me) with a question or a problem. Please don't send backup files unless asked.
 
 Include your app version from Settings, iPhone/iPad model, iOS version, the steps that caused the problem and what you expected to happen. Screenshots can help; remove private information first.
 
