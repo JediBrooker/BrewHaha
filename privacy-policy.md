@@ -1,12 +1,12 @@
 # BrewHaha privacy policy
 
-Effective 7 October 2026. BrewHaha is developed by Christian Brooker (JediBrooker).
+Effective 13 October 2026. BrewHaha is developed by Christian Brooker (JediBrooker).
 
 BrewHaha helps you plan recipes and record your brewing. It does not require a BrewHaha account and has no advertising or analytics SDK.
 
 ## Your brewing records
 
-Recipes, equipment profiles, batches, tasting notes, ratings, fermentation readings, pantry items and brew sessions are stored on your device. BrewHaha does not upload these records to an app account or developer server; only the recipes, brew photos and ratings you choose to share with the community leave your device (see Community recipes below). Apple may include app data in device backups according to your device settings.
+Recipes, equipment profiles, batches, tasting notes, ratings, fermentation readings, pantry items and brew sessions are stored on your device. BrewHaha does not upload these records to an app account or developer server; only the recipes, brew photos and ratings you choose to share with the community leave your device (see Community recipes below). Apple (on iPhone and iPad) or Google (on Android) may include app data in device backups according to your device settings.
 
 You can export a backup and choose where to save or share it. Imported backups are processed on your device. Copies you export remain in the locations you choose; manage those copies separately.
 
@@ -14,21 +14,21 @@ You can export a backup and choose where to save or share it. Imported backups a
 
 The camera reads ingredient barcodes on your device; barcode scans are not uploaded. A scanned code first matches saved pantry items locally. You can also take or choose a photo of a brew. Brew photos stay on your device unless you add one to a recipe you share with the community.
 
-Compatible Tilt hydrometers broadcast their readings as Bluetooth beacons, so Bluetooth must be turned on to read them. iOS only lets apps receive these beacon broadcasts through its location services. When you tap **Scan** to find a Tilt, BrewHaha therefore asks for location access while the app is in use. BrewHaha uses this permission only to detect nearby Tilt beacons. It does not read, store or share your location, and it never asks for location access in the background. Tilt readings are recorded in your local batch history. Without this permission, or without a Tilt, you can enter gravity and temperature readings manually.
+Compatible Tilt hydrometers broadcast their readings as Bluetooth beacons, so Bluetooth must be turned on to read them. iOS only lets apps receive these beacon broadcasts through its location services, and Android requires Nearby devices and location permission to receive them. When you tap **Scan** to find a Tilt, BrewHaha therefore asks for these permissions while the app is in use. BrewHaha uses this permission only to detect nearby Tilt beacons. It does not read, store or share your location, and it never asks for location access in the background. Tilt readings are recorded in your local batch history. Without this permission, or without a Tilt, you can enter gravity and temperature readings manually.
 
-You can manage camera and location permissions in iOS Settings.
+You can manage camera, Bluetooth and location permissions in your device's settings.
 
 ## Optional online product lookup
 
 Only when you choose **Look up product online**, BrewHaha sends the product barcode to Open Food Facts. Its servers also receive your IP address and an app identification header containing the app name, version and support URL. Camera images, recipes, batch records and pantry contents are not sent.
 
-[Open Food Facts' privacy policy](https://world.openfoodfacts.org/privacy) states that visitor IP addresses and request logs are retained for three years for security, technical analysis and popularity measurement. Open Food Facts operates this service under its own policy. You can contact it at privacy@openfoodfacts.org about its handling of those records. BrewHaha uses Apple's native barcode scanning, without Google's MLKit scanner.
+[Open Food Facts' privacy policy](https://world.openfoodfacts.org/privacy) states that visitor IP addresses and request logs are retained for three years for security, technical analysis and popularity measurement. Open Food Facts operates this service under its own policy. You can contact it at privacy@openfoodfacts.org about its handling of those records. On iPhone and iPad, BrewHaha uses Apple's native barcode scanning; on Android, it decodes barcodes on your device with the open-source ZXing library. Neither uses Google's ML Kit scanner.
 
 Online lookup is optional. Local matching and manual product entry remain available without it. Product facts are community contributed; check the packaging before saving. [Open Food Facts data](https://world.openfoodfacts.org/data) is licensed under the [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/).
 
 ## Community recipes
 
-Community recipes are optional. Browsing them needs no identity. Nothing about you is sent until you share, rate or report a recipe. Then this installation gets an anonymous community identity: a random ID and a key kept in your device's keychain. No name, email address or account is needed.
+Community recipes are optional. Browsing them needs no identity. Nothing about you is sent until you share, rate or report a recipe. Then this installation gets an anonymous community identity: a random ID and a key kept in your device's secure storage (the iOS keychain, or on Android a file encrypted with an Android Keystore key that is excluded from backups). No name, email address or account is needed.
 
 **Public:** recipes you share, any brew photo you add to them, the display name you choose, and rating averages and counts for community and published recipes.
 
@@ -50,7 +50,7 @@ These public privacy and support pages are hosted by GitHub Pages. GitHub handle
 
 ## Your choices
 
-Delete individual records in the app, or remove its local database by deleting the app. Manage exported files and Apple device backups separately. Choose local barcode matching or manual entry to avoid online product lookup. Remove community recipes, photos, ratings and reports with **Settings → Community → Delete everything I shared**. BrewHaha does not use this information for advertising tracking.
+Delete individual records in the app, or remove its local database by deleting the app. Manage exported files and Apple or Google device backups separately. Choose local barcode matching or manual entry to avoid online product lookup. Remove community recipes, photos, ratings and reports with **Settings → Community → Delete everything I shared**. BrewHaha does not use this information for advertising tracking.
 
 ## Contact and updates
 

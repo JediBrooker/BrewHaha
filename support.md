@@ -1,6 +1,6 @@
 # BrewHaha support
 
-Good beer. Great laughs. Practical help for your next brew on iPhone and iPad.
+Good beer. Great laughs. Practical help for your next brew on iPhone, iPad and Android.
 
 ## Getting started
 
@@ -26,7 +26,7 @@ Open **Settings → Equipment profiles** and create a profile. Choose your brewi
 
 ## Barcode scanning
 
-Allow camera access when scanning an ingredient. Saved pantry barcodes match locally. Choose **Look up product online** to search Open Food Facts; not all brewing ingredients are in that community database. Review the result before saving, or enter an unknown product manually. Check camera permission in iOS Settings if the scanner is unavailable.
+Allow camera access when scanning an ingredient. Saved pantry barcodes match locally. Choose **Look up product online** to search Open Food Facts; not all brewing ingredients are in that community database. Review the result before saving, or enter an unknown product manually. Check the camera permission in your device's settings if the scanner is unavailable.
 
 ## Backups
 
@@ -40,6 +40,6 @@ All current BrewHaha brewing tools are free. No BrewHaha account or subscription
 
 Email [support@brewhaha.me](mailto:support@brewhaha.me) with a question or a problem. Please don't send backup files unless asked.
 
-Include your app version from Settings, iPhone/iPad model, iOS version, the steps that caused the problem and what you expected to happen. Screenshots can help; remove private information first.
+Include your app version from Settings, your device model, its iOS or Android version, the steps that caused the problem and what you expected to happen. Screenshots can help; remove private information first.
 
 [Read the BrewHaha privacy policy](privacy/).
