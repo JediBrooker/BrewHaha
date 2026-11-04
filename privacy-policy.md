@@ -1,6 +1,6 @@
 # BrewHaha privacy policy
 
-Effective 13 October 2026. BrewHaha is developed by Christian Brooker (JediBrooker).
+Effective 4 November 2026. BrewHaha is developed by Christian Brooker (JediBrooker).
 
 BrewHaha helps you plan recipes and record your brewing. It does not require a BrewHaha account and has no advertising or analytics SDK.
 
@@ -9,6 +9,8 @@ BrewHaha helps you plan recipes and record your brewing. It does not require a B
 Recipes, equipment profiles, batches, tasting notes, ratings, fermentation readings, pantry items and brew sessions are stored on your device. BrewHaha does not upload these records to an app account or developer server; only the recipes, brew photos and ratings you choose to share with the community leave your device (see Community recipes below). Apple (on iPhone and iPad) or Google (on Android) may include app data in device backups according to your device settings.
 
 You can export a backup and choose where to save or share it. Imported backups are processed on your device. Copies you export remain in the locations you choose; manage those copies separately.
+
+You can also share a single recipe as a file through your device's share sheet, and open recipe files sent to you. A shared recipe file contains only the recipe (ingredients, method and notes written in the recipe itself), not your batches, tasting notes, readings or other personal data. Who receives it is up to you.
 
 ## Camera, Bluetooth and location
 
@@ -44,9 +46,11 @@ Because the identity is tied to this installation, deleting the app means you ca
 
 When you open a recipe source, manufacturer manual, support page or other external link, your browser connects to that website. The website's own privacy policy applies. If you contact support, you choose which contact details, messages and attachments to provide. Avoid sending backups or private brewing notes unless needed to investigate the issue.
 
+When BrewHaha asks you to rate it, the rating prompt is shown and handled by the App Store or Google Play under Apple's or Google's privacy policy; BrewHaha does not see what you enter.
+
 ## This website
 
-These public privacy and support pages are hosted by GitHub Pages. GitHub handles website requests under its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The pages contain no analytics scripts, advertising or third-party fonts. This website hosting is separate from the local brewing records in the app.
+These public pages (home, support and privacy) are hosted by GitHub Pages. GitHub handles website requests under its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The pages contain no analytics scripts, advertising or third-party fonts. This website hosting is separate from the local brewing records in the app.
 
 ## Your choices
 

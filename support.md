@@ -42,4 +42,4 @@ Email [support@brewhaha.me](mailto:support@brewhaha.me) with a question or a pro
 
 Include your app version from Settings, your device model, its iOS or Android version, the steps that caused the problem and what you expected to happen. Screenshots can help; remove private information first.
 
-[Read the BrewHaha privacy policy](privacy/).
+[Read the BrewHaha privacy policy](../privacy/).
