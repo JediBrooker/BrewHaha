@@ -28,6 +28,14 @@ Open **Settings → Equipment profiles** and create a profile. Choose your brewi
 
 Allow camera access when scanning an ingredient. Saved pantry barcodes match locally. Choose **Look up product online** to search Open Food Facts; not all brewing ingredients are in that community database. Review the result before saving, or enter an unknown product manually. Check the camera permission in your device's settings if the scanner is unavailable.
 
+## Importing and sharing recipes
+
+To bring a recipe file into BrewHaha, open **My Recipes** and tap **Import** (the download arrow at the top right, next to +). Choose a recipe file exported from BrewHaha, or a Brewfather recipe export (in Brewfather: **Recipe → Export → JSON**). The recipe opens for you to check and save.
+
+To send a recipe to someone, open it in **My Recipes** and tap **Share recipe**, or **Export recipe JSON** to save the file yourself. If someone sends you a recipe file, tap it and choose BrewHaha to open it.
+
+Recipe files and backups are different. **Settings → Import backup** is for the full backups made by Export backup; a single recipe goes through **My Recipes → Import**.
+
 ## Backups
 
 Use **Settings → Backup and restore → Export backup** to save a copy of your records. Keep an export before changing devices or deleting the app. Import adds new records and preserves existing matching recipes. Exported backups may contain your notes; keep them private.
